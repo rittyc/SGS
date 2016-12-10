@@ -25,9 +25,25 @@
             padding-bottom: 10px;
             padding-right:10px;
         }
+        button{
+          height:50px;
+          width:100px;
+          padding-top:20px;
+        }
     </style>
     <div class="container-fluid">
         <!--col-md-* and fluid suitable for all devices-->
+        <div class="row">
+            <div class="col-md-3 col-xs-3">
+                <button type="button" class="btn btn-default back-button-header" onclick="window.history.back()">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"> </span>
+            </button>
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <h2 class="text-center"><b> Heroes</b>
+                  </h2>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-4 col-xs-4">
                 <a href="heroes/Shu/LiuBei.html"><img src="img/Shu/Liu Bei 4.jpg" class="img-responsive resize" alt="Liu Bei"></a>
