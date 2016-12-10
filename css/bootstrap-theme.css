@@ -59,7 +59,7 @@ fieldset[disabled] .btn-danger {
 }
 .btn:active,
 .btn.active {
-  background-image: url("http://2.bp.blogspot.com/_xBWhggzpXK4/TMUvSmBQi7I/AAAAAAAAATU/z4nI7CHhPRk/s1600/sanguosha.jpeg");
+  background-image: url("sanguosha.png");
 }
 .btn-default {
   text-shadow: 0 1px 0 #fff;
